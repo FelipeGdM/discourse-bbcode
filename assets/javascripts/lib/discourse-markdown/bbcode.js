@@ -236,6 +236,8 @@ export function setup(helper) {
     "span.smallfont",
     "blockquote.indent",
     "ol[type=*]",
+    "td[rowspan=*]",
+    "td[colspan=*]",
   ]);
 
   helper.allowList({
